@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# This script displays "Best School" 10 times using a while loop
+# Displays 'Best School' in stdout 10 times using a while loop
 
-count=0
-while [ \$count -lt 10 ]
+n=0
+while ((n < 10))
 do
-   echo "Best School"
-   count=\$((count+1))
+    echo "Best School"
+    n=$((n+1))
 done
