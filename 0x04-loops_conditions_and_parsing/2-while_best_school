@@ -2,7 +2,7 @@
 # Displays 'Best School' in stdout 10 times using a while loop
 
 n=0
-while ((n < 10))
+while ((n < 11))
 do
     echo "Best School"
     n=$((n+1))
